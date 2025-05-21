@@ -1,6 +1,6 @@
 # Vuejs & TailwindCSS Portfolio - With Dark Mode
 
-https://p.joblinker.pro.vn/Banner.png
+![Banner](https://p.joblinker.pro.vn/Banner.png)
 
 ## Features
 
