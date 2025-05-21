@@ -3,6 +3,7 @@ import App from './App.vue';
 import router from './router';
 import './assets/css/app.css';
 import BackToTop from 'vue-backtotop';
+import { FontAwesomeIcon } from './plugins/fontawesome.js'
 
 const feather = require('feather-icons');
 feather.replace();
@@ -10,6 +11,7 @@ feather.replace();
 createApp(App)
 	.use(router)
 	.use(BackToTop)
+	.component('font-awesome-icon', FontAwesomeIcon)
 	.mount('#app');
 
 const appTheme = localStorage.getItem('theme');
