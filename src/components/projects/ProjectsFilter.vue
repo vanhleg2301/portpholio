@@ -12,7 +12,6 @@ export default {
 				'Web Application',
 				'Mobile Application',
 				'UI/UX Design',
-				'Branding & Anim',
 			],
 		},
 	},

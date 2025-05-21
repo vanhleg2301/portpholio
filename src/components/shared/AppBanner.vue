@@ -36,12 +36,12 @@ export default {
 			<p
 				class="font-general-medium mt-2 text-lg sm:text-xl  xl:text-2xl text-center sm:text-left leading-none text-gray-400"
 			>
-				A Full-Stack Developer & Design Enthusiast
+				A Full-Stack Developer
 			</p>
 			<div class="flex justify-center sm:block">
 				<a
-					download="Stoman-Resume.pdf"
-					href="/files/Stoman-Resume.pdf"
+					download="VietAnh-Cv.pdf"
+					href="/files/VietAnh-Cv.pdf"
 					class="flex justify-center items-center w-36 sm:w-48 mt-12 mb-6 sm:mb-0 text-lg border border-blue-200 dark:border-ternary-dark py-2.5 sm:py-3 shadow-lg rounded-lg bg-blue-50 focus:ring-1 focus:ring-blue-900 hover:bg-blue-500 text-gray-500 hover:text-white duration-500"
 					aria-label="Download Resume"
 				>

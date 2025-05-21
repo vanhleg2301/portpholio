@@ -32,12 +32,7 @@ export default {
 					id: 3,
 					value: 'ui-ux',
 					name: 'UI/UX Design',
-				},
-				{
-					id: 4,
-					value: 'branding',
-					name: 'Branding & Anim',
-				},
+				}
 			],
 		};
 	},
