@@ -31,16 +31,21 @@ export default {
 						class="font-general-regular text-ternary-dark dark:text-ternary-light"
 					>
 						<span>{{ info.title }}: </span>
-						<a
-							href="#"
-							:class="
-								info.title == 'Website' || info.title == 'Phone'
-									? 'hover:underline cursor-pointer'
-									: ''
-							"
-							aria-label="Project Website and Phone"
-							>{{ info.details }}</a
-						>
+            <a
+                :href="
+         info.title === 'Phone'
+          ? 'https://wa.me/' + info.details.replace(/\D/g, '')
+          : info.details
+        "
+                :target="info.title === 'Phone' ? '_blank' : '_self'"
+                :class="
+         info.title == 'Website' || info.title == 'Phone'
+          ? 'hover:underline cursor-pointer'
+          : ''
+        "
+                aria-label="Project Website and Phone"
+            >{{ info.details }}</a
+            >
 					</li>
 				</ul>
 			</div>
